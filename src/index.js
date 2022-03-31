@@ -17,7 +17,7 @@ const server = http.createServer(app);
 //Levantamos el servidor en el puerto 3000:
 const httpServer = server.listen(PORT);
 
-console.log('Server is running on port 3000 ', PORT);
+console.log('Server is running on port ', PORT);
 
 //Conexion con los clientes:
 const io = new WebsocketServer(httpServer);
