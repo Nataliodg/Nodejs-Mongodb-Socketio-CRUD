@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src -d app/dist --copy-files",
-    "start": "node /app/dist/index.js"
+    "start": "node app/dist/index.js"
   },
   "keywords": [],
   "author": "",
